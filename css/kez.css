@@ -1,0 +1,45 @@
+img {
+    width: 420px;
+    height: 300px;
+    padding-left: 40px ;
+   text-align: center;
+}
+/*padding refers to the space inside of the element while margin refers to the space from the start of the page*/
+#container {
+    margin:0 auto;
+    padding: 30px;
+    border: 5px solid black;
+    width: 50%;
+    height: 100vh;
+    margin:0 auto;
+
+}
+body {
+    background-color: floralwhite;
+    
+}
+button {
+    margin-right: 50px;
+    background-color: skyblue;
+    outline-style:hidden;
+    outline-color: black;
+    display: block;
+    padding: 5px;
+    margin-top: -30px;
+    text-decoration: none;
+}
+.button2 {
+    background-color: aliceblue;
+    border: 2px solid black;
+    color:brown;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}
+/*used a hidden outline style to prevent the button from being exctra thick*/
+
+h1 {
+    text-align: justify;
+    font-family: cursive;
+}
